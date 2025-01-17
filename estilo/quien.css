@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #979dac;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #495057;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+    align-items: center;
+}
+
+.nombre {
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+.contenedorRedes {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f7f5;
+}
+
+.redesSociales ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.redesSociales ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.redesSociales ul li a {
+    text-decoration: none;
+    color: #3f37c9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.redesSociales ul li:hover {
+    background-color: #3f37c9;
+    transform: scale(1.1);
+}
+
+.redesSociales ul li:hover a {
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
